@@ -1,0 +1,13 @@
+info:
+  description: "Service for Producer"
+
+spring:
+  application:
+    name: topic-exchange-producer
+
+security:
+  basic:
+    enabled: false
+
+server:
+  port: 9090
